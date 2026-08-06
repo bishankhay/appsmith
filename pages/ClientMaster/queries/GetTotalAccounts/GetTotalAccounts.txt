@@ -1,0 +1,1 @@
+SELECT COUNT(*) As totalaccount FROM public."DematAccount" ;

@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "val2g8q0mw",
+  "leftColumn": 50,
+  "minWidth": 120,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal(AddClientModel.name);}}",
+  "originalBottomRow": 21,
+  "originalTopRow": 17,
+  "parentColumnSpace": 11.59375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "text": "Add Client",
+  "topRow": 17,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "oobwbl1bx0",
+  "widgetName": "Add_clients"
+}

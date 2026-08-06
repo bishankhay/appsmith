@@ -1,0 +1,16 @@
+INSERT INTO public."DematAccount"
+(
+    "BO_ID",
+    "Name",
+    "Account_Type",
+    "Account_Opening_Date",
+    "Status"
+)
+VALUES
+(
+    {{inpBOID.text}},
+    {{inpName.text}},
+    {{selAccountType.selectedOptionValue}},
+    {{dpOpeningDate.selectedDate}},
+    {{selStatus.selectedOptionValue}}
+);

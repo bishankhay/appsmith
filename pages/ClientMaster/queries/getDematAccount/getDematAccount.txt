@@ -1,0 +1,9 @@
+SELECT *
+FROM public."DematAccount"
+WHERE
+    (
+        {{clientSearch.text}} = ''
+        OR "BO_ID" ILIKE '%' || {{clientSearch.text}} || '%'
+        OR "Name" ILIKE '%' || {{clientSearch.text}} || '%'
+    )
+ORDER BY "Name";
