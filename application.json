@@ -8,6 +8,10 @@
     {
       "id": "ClientMaster",
       "isDefault": true
+    },
+    {
+      "id": "Payment",
+      "isDefault": false
     }
   ]
 }
