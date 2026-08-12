@@ -1,0 +1,1 @@
+select service_id, service_name,standard_fee from public."fee_master" where status='Active' order by service_name;
